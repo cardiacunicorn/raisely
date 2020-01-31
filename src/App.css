@@ -1,38 +1,90 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "objektiv-mk2";
+  margin-top: 3rem;
+}
+
+h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2 strong, h3 strong {
+  display: inline-block;
+  background: linear-gradient(to right, rgba(253, 169, 255, 0.5), #FFA9C8 33%) no-repeat 0% calc(100% - 0.15em)/400% 0.375em;
+  transition: 0.4s cubic-bezier(0.22, 0.24, 0.18, 1);
+  will-change: background-position;
+  padding: 0 0.1em;
+  margin: 0 -0.075em;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+  line-height: 1.4;
+  font-family: proxima nova,proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,open sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   background-color: #282c34;
+  color: white;
+}
+
+.Page-title {
+  text-align: left;
+  height: 10vh;
+  margin: 10vh 5vw;
+}
+
+.Page-header {
+  background-image: url("https://raisely-images.imgix.net/raisely-website-2019/uploads/header-ribbon-png-76bab9.png?fit=max&w=2000&auto=format&q=62");
+  background-repeat: no-repeat;
+  background-size: 100vw 30vh;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+}
+
+.Page-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.QandA {
+  width: 80vw;
+  max-width: 1000px;
+}
+
+.Question {
+  font-size: 1.8rem;
+}
+
+.Response {
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.number {
+  flex-basis: 10%;
+  text-align: right;
+  font-size: 3rem;
+  color: rgba(253, 169, 255, 1);
+  margin: 1rem 2rem;
+}
+
+.heading {
+  flex-basis: 90%;
+  padding: 1rem;
 }
