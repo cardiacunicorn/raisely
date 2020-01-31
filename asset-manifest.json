@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/raisely/static/css/main.a979051d.chunk.css",
+    "main.js": "/raisely/static/js/main.5d3bc30b.chunk.js",
+    "main.js.map": "/raisely/static/js/main.5d3bc30b.chunk.js.map",
+    "runtime-main.js": "/raisely/static/js/runtime-main.21a725cf.js",
+    "runtime-main.js.map": "/raisely/static/js/runtime-main.21a725cf.js.map",
+    "static/js/2.bc9cbe30.chunk.js": "/raisely/static/js/2.bc9cbe30.chunk.js",
+    "static/js/2.bc9cbe30.chunk.js.map": "/raisely/static/js/2.bc9cbe30.chunk.js.map",
+    "index.html": "/raisely/index.html",
+    "precache-manifest.f42811caa1cd7a42098007898b421360.js": "/raisely/precache-manifest.f42811caa1cd7a42098007898b421360.js",
+    "service-worker.js": "/raisely/service-worker.js",
+    "static/css/main.a979051d.chunk.css.map": "/raisely/static/css/main.a979051d.chunk.css.map",
+    "static/js/2.bc9cbe30.chunk.js.LICENSE": "/raisely/static/js/2.bc9cbe30.chunk.js.LICENSE",
+    "static/media/logo.svg": "/raisely/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21a725cf.js",
+    "static/js/2.bc9cbe30.chunk.js",
+    "static/css/main.a979051d.chunk.css",
+    "static/js/main.5d3bc30b.chunk.js"
+  ]
+}
